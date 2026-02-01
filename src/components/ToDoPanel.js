@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function TodoPanel() {
   const [tasks, setTasks] = useState(
-    JSON.parse(localStorage.getItem("itsyou-tasks")) || []
+    JSON.parse(localStorage.getItem("itsyou-tasks")) || [],
   );
   const [input, setInput] = useState("");
 
